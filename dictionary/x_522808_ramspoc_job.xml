@@ -16,6 +16,7 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Manager" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
+        <element label="Object" max_length="32" name="u_object" reference="x_522808_ramspoc_object" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_priority" choice_table="x_522808_ramspoc_pow" label="Priority" mandatory="true" max_length="40" name="u_priority" type="string">
             <choice>
                 <element inactive_on_update="false" label="A - Ministry of Health" sequence="0" value="A"/>
