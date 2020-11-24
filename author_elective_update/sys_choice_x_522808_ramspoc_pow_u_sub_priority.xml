@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_sub_priority" table="x_522808_ramspoc_pow" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_sub_priority</element>
+            <name>x_522808_ramspoc_pow</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 02:50:00</sys_created_on>
+            <sys_id>203291a32f64201046a218aa2799b61a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_sub_priority</sys_name>
+            <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_522808_ramspoc_pow_u_sub_priority</sys_update_name>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 02:50:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>To be actioned within one day</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_pow</name>
+            <sequence>1</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 02:50:39</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>a93291a32f64201046a218aa2799b67d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 02:50:46</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Required to be actioned with in one week</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_pow</name>
+            <sequence>2</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 02:50:55</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>4a5291a32f64201046a218aa2799b61d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 02:51:01</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Required to be actioned within 2 weeks</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_pow</name>
+            <sequence>3</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 02:51:07</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>75625d632f64201046a218aa2799b6b3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 02:51:13</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

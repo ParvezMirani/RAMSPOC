@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Job" max_length="40" name="x_522808_ramspoc_job" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Directorate" max_length="40" name="u_directorate" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element choice="1" display="true" label="Job Type" mandatory="true" max_length="40" name="u_job_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Report" sequence="1" value="report"/>
+                <element inactive_on_update="false" label="Universe" sequence="2" value="universe"/>
+                <element inactive_on_update="false" label="Dashboard" sequence="3" value="dashboard"/>
+                <element inactive_on_update="false" label="Data Mart" sequence="4" value="dataMart"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_priority" choice_table="x_522808_ramspoc_pow" label="Priority" mandatory="true" max_length="40" name="u_priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A - Ministry of Health" sequence="0" value="A"/>
+                <element inactive="true" inactive_on_update="true" label="B - Revenue" sequence="0" value="B - Revenue"/>
+                <element inactive_on_update="false" label="C - ADHB Strategic" sequence="3" value="C"/>
+                <element inactive_on_update="false" label="D - Support Business/Patient Process" sequence="4" value="D"/>
+                <element inactive_on_update="false" label="E - Service Improvement" sequence="5" value="E"/>
+                <element inactive_on_update="false" label="G - Internal" sequence="6" value="G"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="100" name="u_title" type="string"/>
+    </element>
+</database>

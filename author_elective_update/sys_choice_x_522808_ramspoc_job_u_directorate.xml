@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_directorate" table="x_522808_ramspoc_job" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_directorate</element>
+            <name>x_522808_ramspoc_job</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:24:19</sys_created_on>
+            <sys_id>d70a112b2f64201046a218aa2799b691</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_directorate</sys_name>
+            <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_522808_ramspoc_job_u_directorate</sys_update_name>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:24:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_directorate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>0</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:24:19</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>9f0a112b2f64201046a218aa2799b690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:24:19</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_directorate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>1</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:24:19</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>5f0a112b2f64201046a218aa2799b693</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:24:19</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_directorate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>2</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:24:19</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>1f0a112b2f64201046a218aa2799b695</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:24:19</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

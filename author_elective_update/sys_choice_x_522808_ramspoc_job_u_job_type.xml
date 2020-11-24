@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_job_type" table="x_522808_ramspoc_job" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_job_type</element>
+            <name>x_522808_ramspoc_job</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:14:45</sys_created_on>
+            <sys_id>c7d715a72f64201046a218aa2799b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_job_type</sys_name>
+            <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_522808_ramspoc_job_u_job_type</sys_update_name>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:14:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_job_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Report</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>1</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:14:45</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>f1c795a72f64201046a218aa2799b624</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:14:55</sys_updated_on>
+            <value>report</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_job_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Universe</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>2</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:15:02</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>72d795a72f64201046a218aa2799b625</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:15:21</sys_updated_on>
+            <value>universe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_job_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dashboard</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>3</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:15:24</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>9be751a72f64201046a218aa2799b678</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:15:35</sys_updated_on>
+            <value>dashboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_job_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Mart</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>4</sequence>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-24 03:15:48</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>640859a72f64201046a218aa2799b6e9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-24 03:16:15</sys_updated_on>
+            <value>dataMart</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

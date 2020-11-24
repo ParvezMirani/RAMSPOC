@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_ramspoc_workflow" name="sn_dd_ramspoc_workflow">1a2c746f2fe0201046a218aa2799b60a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-24 01:13:44</sys_created_on>
+        <sys_id>da2c746f2fe0201046a218aa2799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1a2c746f2fe0201046a218aa2799b60a</sys_name>
+        <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_da2c746f2fe0201046a218aa2799b60c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-24 01:13:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
