@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Job" max_length="40" name="x_522808_ramspoc_job" type="collection">
+    <element extends="task" label="Job" max_length="40" name="x_522808_ramspoc_job" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Directorate" max_length="40" name="u_directorate" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>

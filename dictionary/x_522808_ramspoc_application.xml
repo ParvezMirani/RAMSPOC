@@ -4,6 +4,6 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ApplicationID" label="ApplicationID" max_length="40" name="u_applicationid" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=BIPortal" label="BIPortal" max_length="40" name="u_biportal" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=DateTimeAdded" label="DateTimeAdded" max_length="40" name="u_datetimeadded" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" display="true" label="Name" max_length="40" name="u_name" type="string"/>
     </element>
 </database>
