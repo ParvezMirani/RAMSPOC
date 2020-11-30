@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Programme of Work" max_length="40" name="x_522808_ramspoc_pow" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="Long Description" max_length="1000" name="u_long_description" type="string"/>
-        <element attributes="is_searchable_choice=true" choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
+        <element attributes="encode_utf8=false" label="Department" max_length="32" name="u_department" reference="x_522808_ramspoc_department" type="reference"/>
+        <element attributes="encode_utf8=false" label="Logged By" mandatory="true" max_length="32" name="u_logged_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Logged Date" mandatory="true" max_length="40" name="u_logged_date" type="glide_date"/>
+        <element label="Long Description" max_length="1000" name="u_long_description" type="string"/>
+        <element choice="1" display="true" label="Priority" max_length="40" name="u_priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="A - Ministry of Health" sequence="1" value="A"/>
                 <element inactive_on_update="false" label="B - Revenue, Funding and Costing" sequence="2" value="B"/>
@@ -13,7 +16,9 @@
                 <element inactive_on_update="false" label="G - Internal" sequence="7" value="G"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Requested Date" mandatory="true" max_length="40" name="u_requested_date" type="glide_date"/>
         <element label="Requester" max_length="32" name="u_requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Required Date" max_length="40" name="u_required_date" type="glide_date"/>
         <element label="Short Description" mandatory="true" max_length="100" name="u_short_description" type="string"/>
         <element choice="1" label="Sub priority" max_length="40" name="u_sub_priority" type="choice">
             <choice>
@@ -23,6 +28,12 @@
             </choice>
         </element>
         <index name="index">
+            <element name="u_department"/>
+        </index>
+        <index name="index2">
+            <element name="u_logged_by"/>
+        </index>
+        <index name="index3">
             <element name="u_requester"/>
         </index>
     </element>

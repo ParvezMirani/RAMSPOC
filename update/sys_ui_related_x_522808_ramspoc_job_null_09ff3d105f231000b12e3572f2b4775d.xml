@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="09ff3d105f231000b12e3572f2b4775d" table="x_522808_ramspoc_job" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Job - Default view" name="x_522808_ramspoc_job" related_list="NULL" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">be144b842f3c601046a218aa2799b6b8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_522808_ramspoc_job_task.u_job_no</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-26 00:24:39</sys_created_on>
+            <sys_id>f6144b842f3c601046a218aa2799b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-26 00:24:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Job - Default view</calculated_name>
+            <filter/>
+            <name>x_522808_ramspoc_job</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>TGlynn</sys_created_by>
+            <sys_created_on>2020-11-26 00:24:39</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>be144b842f3c601046a218aa2799b6b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Job - Default view</sys_name>
+            <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+            <sys_update_name>sys_ui_related_x_522808_ramspoc_job_null_09ff3d105f231000b12e3572f2b4775d</sys_update_name>
+            <sys_updated_by>TGlynn</sys_updated_by>
+            <sys_updated_on>2020-11-26 00:24:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

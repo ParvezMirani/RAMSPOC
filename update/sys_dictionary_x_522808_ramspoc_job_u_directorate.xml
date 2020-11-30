@@ -27,7 +27,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_522808_ramspoc_job</name>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -49,14 +49,14 @@
         <sys_created_by>TGlynn</sys_created_by>
         <sys_created_on>2020-11-24 03:24:19</sys_created_on>
         <sys_id>0f0a112b2f64201046a218aa2799b630</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Directorate</sys_name>
         <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
         <sys_policy/>
         <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
         <sys_update_name>sys_dictionary_x_522808_ramspoc_job_u_directorate</sys_update_name>
         <sys_updated_by>TGlynn</sys_updated_by>
-        <sys_updated_on>2020-11-24 03:24:19</sys_updated_on>
+        <sys_updated_on>2020-11-29 22:55:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Object" max_length="40" name="x_522808_ramspoc_object" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="Name" mandatory="true" max_length="256" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Class" max_length="40" name="u_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Data Source" max_length="1024" name="u_data_source" reference="x_522808_ramspoc_application" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Department" max_length="32" name="u_department" reference="x_522808_ramspoc_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
+        <element label="Name" mandatory="true" max_length="256" name="u_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="u_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Report Type" max_length="40" name="u_report_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tool" max_length="40" name="u_tool" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_owner"/>
+        </index>
+        <index name="index2">
+            <element name="u_department"/>
+        </index>
     </element>
 </database>

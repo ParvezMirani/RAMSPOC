@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Reporting Tool" max_length="40" name="x_522808_ramspoc_reporting_tool" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=DateTimeAdded" label="DateTimeAdded" max_length="40" name="u_datetimeadded" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" display="true" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FolderPath" label="FolderPath" max_length="90" name="u_folderpath" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ReportingToolID" label="ReportingToolID" max_length="40" name="u_reportingtoolid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ReportReqd" label="ReportReqd" max_length="40" name="u_reportreqd" type="string"/>
+    </element>
+</database>

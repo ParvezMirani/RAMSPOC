@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Historic RAMS Job Type" max_length="40" name="x_522808_ramspoc_historic_rams_job_type" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BIPortal" label="BIPortal" max_length="40" name="u_biportal" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SubjectAreaCode" label="SubjectAreaCode" max_length="40" name="u_subjectareacode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=TypeComment" label="TypeComment" max_length="253" name="u_typecomment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type Description" label="Type Description" max_length="40" name="u_type_description" type="string"/>
+    </element>
+</database>
