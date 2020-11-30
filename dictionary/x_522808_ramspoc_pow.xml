@@ -4,8 +4,8 @@
         <element attributes="encode_utf8=false" label="Department" max_length="32" name="u_department" reference="x_522808_ramspoc_department" type="reference"/>
         <element attributes="encode_utf8=false" label="Logged By" mandatory="true" max_length="32" name="u_logged_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Logged Date" mandatory="true" max_length="40" name="u_logged_date" type="glide_date"/>
-        <element display="true" label="Long Description" max_length="1000" name="u_long_description" type="string"/>
-        <element attributes="is_searchable_choice=true" choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
+        <element label="Long Description" max_length="1000" name="u_long_description" type="string"/>
+        <element choice="1" display="true" label="Priority" max_length="40" name="u_priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="A - Ministry of Health" sequence="1" value="A"/>
                 <element inactive_on_update="false" label="B - Revenue, Funding and Costing" sequence="2" value="B"/>

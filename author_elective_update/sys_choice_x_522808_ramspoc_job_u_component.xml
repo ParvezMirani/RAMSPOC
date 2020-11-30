@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_component" table="x_522808_ramspoc_job" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_component</element>
+            <name>x_522808_ramspoc_job</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:53</sys_created_on>
+            <sys_id>15017f802fbc601046a218aa2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_component</sys_name>
+            <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_522808_ramspoc_job_u_component</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ad-hoc Data Provision</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9017f802fbc601046a218aa2799b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:53</sys_updated_on>
+            <value>adhoc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database Solutions</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91017f802fbc601046a218aa2799b673</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:53</sys_updated_on>
+            <value>dbs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reporting and Visualisation</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51017f802fbc601046a218aa2799b675</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:53</sys_updated_on>
+            <value>r&amp;v</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Administration</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11017f802fbc601046a218aa2799b677</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:53</sys_updated_on>
+            <value>adm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Warehouse</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd017f802fbc601046a218aa2799b678</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:54</sys_updated_on>
+            <value>dw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self Service</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d017f802fbc601046a218aa2799b67a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:54</sys_updated_on>
+            <value>ss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilities</label>
+            <language>en</language>
+            <name>x_522808_ramspoc_job</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-26 03:40:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d017f802fbc601046a218aa2799b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-26 03:40:54</sys_updated_on>
+            <value>util</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

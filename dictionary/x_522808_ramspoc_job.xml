@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Job" max_length="40" name="x_522808_ramspoc_job" sizeclass="1" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Directorate" max_length="40" name="u_directorate" type="string">
+    <element audit="true" extends="task" label="Job" max_length="40" name="x_522808_ramspoc_job" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Action" max_length="40" name="u_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Change" sequence="1" value="change"/>
+                <element inactive_on_update="false" label="Investigation" sequence="2" value="investigation"/>
+                <element inactive_on_update="false" label="Reconciliation" sequence="3" value="reconciliation"/>
+                <element inactive_on_update="false" label="Remove" sequence="4" value="remove"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Deleteme" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element choice="1" display="true" label="Job Type" mandatory="true" max_length="40" name="u_job_type" type="choice">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Component" max_length="32" name="u_component" reference="x_522808_ramspoc_subject_area" reference_key="SubjectAreaDesc" reference_qual="u_active=1^EQ" reference_qual_condition="u_active=1^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Directorate" max_length="40" name="u_directorate" reference="sys_user" type="reference">
             <choice>
-                <element inactive_on_update="false" label="Report" sequence="1" value="report"/>
-                <element inactive_on_update="false" label="Universe" sequence="2" value="universe"/>
-                <element inactive_on_update="false" label="Dashboard" sequence="3" value="dashboard"/>
-                <element inactive_on_update="false" label="Data Mart" sequence="4" value="dataMart"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Job Size" max_length="40" name="u_job_size" type="string">
+            <choice>
+                <element inactive_on_update="false" label="XS" sequence="0" value="xs"/>
+                <element inactive_on_update="false" label="S" sequence="1" value="s"/>
+                <element inactive_on_update="false" label="M" sequence="2" value="m"/>
+                <element inactive_on_update="false" label="L" sequence="3" value="l"/>
+                <element inactive_on_update="false" label="XL" sequence="4" value="xl"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Job Type" mandatory="true" max_length="32" name="u_job_type" reference="x_522808_ramspoc_job_type" reference_qual="javascript:&quot;u_component=&quot;+current.u_component" type="reference" use_reference_qualifier="advanced"/>
         <element attributes="encode_utf8=false" label="Manager" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
         <element label="Object" max_length="32" name="u_object" reference="x_522808_ramspoc_object" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_priority" choice_table="x_522808_ramspoc_pow" label="Priority" mandatory="true" max_length="40" name="u_priority" type="string">
+        <element attributes="encode_utf8=false" label="POW" max_length="32" name="u_pow" reference="x_522808_ramspoc_pow" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_priority" choice_table="x_522808_ramspoc_pow" label="Priority" mandatory="true" max_length="40" name="u_priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="A - Ministry of Health" sequence="0" value="A"/>
-                <element inactive="true" inactive_on_update="true" label="B - Revenue" sequence="0" value="B - Revenue"/>
-                <element inactive_on_update="false" label="C - ADHB Strategic" sequence="3" value="C"/>
-                <element inactive_on_update="false" label="D - Support Business/Patient Process" sequence="4" value="D"/>
-                <element inactive_on_update="false" label="E - Service Improvement" sequence="5" value="E"/>
-                <element inactive_on_update="false" label="G - Internal" sequence="6" value="G"/>
+                <element inactive_on_update="false" label="B - Revenue, Funding and Costing" sequence="1" value="B"/>
+                <element inactive_on_update="false" label="C - ADHB Strategic" sequence="2" value="C"/>
+                <element inactive_on_update="false" label="D - Support Business/Patient Process" sequence="3" value="D"/>
+                <element inactive_on_update="false" label="E - Service Improvement" sequence="4" value="E"/>
+                <element inactive_on_update="false" label="G - Internal" sequence="5" value="G"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub Priority" max_length="40" name="u_sub_priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - To be actioned within one day" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Required to be actioned with in one week" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Required to be actioned within 2 weeks" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - Default" sequence="3" value="4"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="100" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tool" max_length="40" name="u_tool" reference="u__historic_needit_data" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="4000" name="u_work_notes" type="journal"/>
     </element>
 </database>

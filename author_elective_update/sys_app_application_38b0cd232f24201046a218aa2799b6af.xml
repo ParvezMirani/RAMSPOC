@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Jobs</name>
+        <order>100</order>
+        <roles>x_522808_ramspoc.job_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>TGlynn</sys_created_by>
+        <sys_created_on>2020-11-24 01:33:34</sys_created_on>
+        <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38b0cd232f24201046a218aa2799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jobs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+        <sys_update_name>sys_app_application_38b0cd232f24201046a218aa2799b6af</sys_update_name>
+        <sys_updated_by>TGlynn</sys_updated_by>
+        <sys_updated_on>2020-11-24 01:33:34</sys_updated_on>
+        <title>Jobs</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</application>
+        <file_path/>
+        <instance_id>139daf4adbb4dc50e03ad7c8f4961912</instance_id>
+        <instance_name>dev103926</instance_name>
+        <name>sys_app_application_38b0cd232f24201046a218aa2799b6af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Jobs</name><order>100</order><roles>x_522808_ramspoc.job_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>TGlynn</sys_created_by><sys_created_on>2020-11-24 01:33:34</sys_created_on><sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>38b0cd232f24201046a218aa2799b6af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Jobs</sys_name><sys_overrides/><sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package><sys_policy/><sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope><sys_update_name>sys_app_application_38b0cd232f24201046a218aa2799b6af</sys_update_name><sys_updated_by>TGlynn</sys_updated_by><sys_updated_on>2020-11-24 01:33:34</sys_updated_on><title>Jobs</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>2037734585</payload_hash>
+        <record_name>Jobs</record_name>
+        <reverted_from/>
+        <source>0d8bf4e72fe0201046a218aa2799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TGlynn</sys_created_by>
+        <sys_created_on>2020-11-24 01:33:34</sys_created_on>
+        <sys_id>fcb0cd232f24201046a218aa2799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175f7e273b70000001</sys_recorded_at>
+        <sys_updated_by>TGlynn</sys_updated_by>
+        <sys_updated_on>2020-11-24 01:33:34</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>38b0cd2397242010c48c42a9d51720b2</update_guid>
+        <update_guid_history>38b0cd2397242010c48c42a9d51720b2:2037734585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Jobs">76d197cc2f3c601046a218aa2799b67b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>TGlynn</sys_created_by>
+        <sys_created_on>2020-11-26 01:24:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>250b74a0bd704140ab3fca9e29e62100</sys_id>
+        <sys_metadata>38b0cd232f24201046a218aa2799b6af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jobs</sys_name>
+        <sys_package display_value="RAMSPOC" source="x_522808_ramspoc">458bf4e72fe0201046a218aa2799b66b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RAMSPOC">458bf4e72fe0201046a218aa2799b66b</sys_scope>
+        <sys_scope_delete display_value="">264b144772ce4ae492ce65f29d321051</sys_scope_delete>
+        <sys_update_name>sys_app_application_38b0cd232f24201046a218aa2799b6af</sys_update_name>
+        <sys_update_version display_value="sys_app_application_38b0cd232f24201046a218aa2799b6af">fcb0cd232f24201046a218aa2799b6b2</sys_update_version>
+        <sys_updated_by>TGlynn</sys_updated_by>
+        <sys_updated_on>2020-11-26 01:24:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

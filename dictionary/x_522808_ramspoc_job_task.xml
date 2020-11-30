@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Job Task" max_length="40" name="x_522808_ramspoc_job_task" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Job No" max_length="32" name="u_job_no" reference="x_522808_ramspoc_job" type="reference"/>
+        <element attributes="encode_utf8=false" label="Logged By" max_length="32" name="u_logged_by" reference="u__historic_needit_data" type="reference"/>
+        <element attributes="encode_utf8=false" label="Reporter" max_length="32" name="u_reporter" reference="sys_user" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Subject Area" max_length="40" name="x_522808_ramspoc_subject_area" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=active" label="active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EmailRecipient" label="EmailRecipient" max_length="42" name="u_emailrecipient" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=folderpath" label="folderpath" max_length="68" name="u_folderpath" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SubjectAreaCode" label="SubjectAreaCode" max_length="40" name="u_subjectareacode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SubjectAreaDesc" display="true" label="SubjectAreaDesc" max_length="40" name="u_subjectareadesc" type="string"/>
+    </element>
+</database>
